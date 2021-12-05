@@ -90,8 +90,6 @@ with high accuracy & sensitivity
 | 2. Model with PCA only | 96% | 0.55 | 0.50 | 0.77 | 
 | 3. Model with SMOTE only | 100%| 1.0 | 1.0 | 1.0 | 
 
-2. Model with PCA only - Accuracy of 96% and AUC-ROC score of 0.82
-3. Model with SMOTE only -Accuracy of 97% and AUC-ROC score of 1
 ### Logistic Regression
 |     | Accuracy | Precision | Recall | ROC score | 
 | --- | --- | --- | --- | --- | 
@@ -105,4 +103,5 @@ It is found that both Custom Ensemble model & Logistic Regression model with SMO
 of the cervical cancer with high accuracy & sensitivity.
 
 
-Which model has best result?: Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) is perfect model for predicting cervical cancer
+**BEST MODEL?**: 
+Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) is the best model for predicting cervical cancer as we get a perfect score for 100% for accuracy, 1.0 for F1, prescison, recall, and AUC-ROC score.
