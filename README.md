@@ -87,15 +87,15 @@ with high accuracy & sensitivity
 |     | Accuracy | Precision | Recall | ROC score | 
 | --- | --- | --- | --- | --- | 
 | 1. Model without PCA & SMOTE | 97% | 0.88| 0.57 | 0.93 | 
-| 2. Model with PCA only | 96% | 0.55 | 0.50 | 0.77 | 
+| 2. Model with PCA only | 96% | 0.78 | 0.54 | 0.87 | 
 | 3. Model with SMOTE only | 100%| 1.0 | 1.0 | 1.0 | 
 
 ### Logistic Regression
 |     | Accuracy | Precision | Recall | ROC score | 
 | --- | --- | --- | --- | --- | 
 | 1. Model without PCA & SMOTE | 94% | 0.4 | 0.44 | 0.97 | 
-| 2. Model with PCA only | 95% | 0.5 | 0.55 | 0.96 | 
-| 3. Model with SMOTE only | 95% | 0.5 | 1.0 | 0.97 | 
+| 2. Model with PCA only | 95% | 0.4 | 0.44 | 0.96 | 
+| 3. Model with SMOTE only | 95% | 0.5 | 1.0 | 0.98 | 
 
 # CONCLUSION
 
