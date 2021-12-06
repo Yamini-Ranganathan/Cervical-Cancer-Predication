@@ -1,4 +1,3 @@
-# PROJECT TITLE
 # COMPARISON OF MACHINE LEARNING MODELS FOR THE PREDICTION OF CERVICAL CANCER
 ## INTRODUCTION:
 According to WHO, Cervical cancer is the fourth most common cancer in women with an estimated
@@ -112,3 +111,9 @@ It is recommended that some additional steps be taken like feature engineering t
 
 **BEST MODEL**: 
 Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) without PCA & SMOTE with 97% accuracy and AUC-ROC -score of 0.93.
+
+**Recommendation to improve the model**
+Use Weighted XGBoost for Class Imbalance by tuning scale_pos_weight hyperparameter
+
+
+
