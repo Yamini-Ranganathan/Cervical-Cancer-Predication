@@ -114,6 +114,3 @@ Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tre
 
 **Recommendation to improve the model**
 Use Weighted XGBoost for Class Imbalance by tuning scale_pos_weight hyperparameter
-
-
-
