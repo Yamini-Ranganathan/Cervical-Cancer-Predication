@@ -110,6 +110,5 @@ It is found that both Custom Ensemble model & Random Forest with SMOTE had 100% 
 It is recommended that some additional steps be taken like feature engineering to get a deeper look into this. The second best model was the ensemble method without PCA and SMOTE. 
 
 
-**BEST MODEL?**: 
-Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) is the best model for predicting cervical cancer as we get a perfect score for 100% for accuracy, 1.0 for F1, prescison, recall, and AUC-ROC score and 97% accuracy
-when there is no SMOTE/PCA.
+**BEST MODEL**: 
+Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) without PCA & SMOTE with 97% accuracy and AUC-ROC -score of 0.93.
