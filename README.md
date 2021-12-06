@@ -97,11 +97,19 @@ with high accuracy & sensitivity
 | 2. Model with PCA only | 95% | 0.4 | 0.44 | 0.96 | 
 | 3. Model with SMOTE only | 95% | 0.5 | 1.0 | 0.98 | 
 
+### Random Forest 
+|     | Accuracy | Precision | Recall | ROC score | 
+| --- | --- | --- | --- | --- | 
+| 1. Model without PCA & SMOTE | 96% | 0.5 | 0.44 | 0.55 | 
+| 2. Model with PCA only | 95% | 0.45 | 0.44 | 0.55 | 
+| 3. Model with SMOTE only | 100% | 1.0 | 1.0 | 1.0 | 
+
 # CONCLUSION
 
-It is found that both Custom Ensemble model & Logistic Regression model with SMOTE correctly predicts the incidence 
-of the cervical cancer with high accuracy & sensitivity.
+It is found that both Custom Ensemble model & Random Forest with SMOTE had 100% accuracy and high sensitivity in predicting cervical cancer through biopsy, however we believe that there may be some overfitting happening.
+It is recommended that some additional steps be taken like feature engineering to get a deeper look into this. The second best model was the ensemble method without PCA and SMOTE. 
 
 
 **BEST MODEL?**: 
-Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) is the best model for predicting cervical cancer as we get a perfect score for 100% for accuracy, 1.0 for F1, prescison, recall, and AUC-ROC score.
+Custom Ensemble Model: Super learner Ensemble method (Base learners:Decision Tree & Bagging & XGBoost as meta learner) is the best model for predicting cervical cancer as we get a perfect score for 100% for accuracy, 1.0 for F1, prescison, recall, and AUC-ROC score and 97% accuracy
+when there is no SMOTE/PCA.
